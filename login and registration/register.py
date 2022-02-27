@@ -7,7 +7,7 @@ import pymysql
 class Register:
     def __init__(self,root):
         self.root=root
-        self.root.title('Login And Registration')
+        self.root.title('Student Managements system || Register')
         self.root.geometry("1350x700+0+0")
 
         #bg image
