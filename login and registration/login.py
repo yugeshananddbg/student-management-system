@@ -10,7 +10,7 @@ import time
 class Login_window:
     def __init__(self, root):
         self.root = root
-        self.root.title("GUI Analouge clock")
+        self.root.title("Student managment system || Login")
         self.root.geometry("1350x700+0+0")
         self.root.config(bg="#021e2f")
         left_lbl = Label(self.root, bg="#08a3d2", bd=0)
